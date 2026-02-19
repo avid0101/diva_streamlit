@@ -961,7 +961,7 @@ if page in ["Home", "Education"]:
     st.markdown('<div class="fancy-divider"></div>', unsafe_allow_html=True)
 
 
-# ━━━━  CERTIFICATES  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#CERTIFICATES 
 if page in ["Home", "Certificates"]:
     st.markdown("""
     <div class="center-text">
