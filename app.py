@@ -674,7 +674,7 @@ if page in ["Home", "About Me"]:
         b1, b2 = st.columns(2)
         with b1:
             st.markdown(f'''
-            <a href="https://github.com/justinandry-diva" target="_blank" style="
+            <a href="https://github.com/avid0101" target="_blank" style="
                 display:flex;align-items:center;justify-content:center;gap:0.5rem;
                 background:var(--gradient-1);color:white;text-decoration:none;
                 border-radius:12px;padding:0.6rem 1.2rem;font-weight:600;
