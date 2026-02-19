@@ -6,9 +6,10 @@ import requests
 from streamlit_lottie import st_lottie
 
 # PAGE CONFIG
+favicon = Image.open("assets/profile.png")
 st.set_page_config(
     page_title="Justin Andry N. Diva | Portfolio",
-    page_icon="💻",
+    page_icon=favicon,
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -729,7 +730,7 @@ CERTIFICATES
     st.markdown('<div class="fancy-divider"></div>', unsafe_allow_html=True)
 
 
-# ━━━━  ABOUT  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# About me!!!
 if page in ["Home", "About Me"]:
     about_left, about_right = st.columns([1.2, 1], gap="large")
 
@@ -777,7 +778,7 @@ if page in ["Home", "About Me"]:
     st.markdown('<div class="fancy-divider"></div>', unsafe_allow_html=True)
 
 
-# ━━━━  SKILLS  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#SKILLS  
 if page in ["Home", "Skills"]:
     st.markdown("""
     <div class="center-text">
@@ -1007,7 +1008,7 @@ if page in ["Home", "Certificates"]:
     st.markdown('<div class="fancy-divider"></div>', unsafe_allow_html=True)
 
 
-# ━━━━  CONTACT  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#CONTACT 
 if page in ["Home", "Contact"]:
     st.markdown("""
     <div class="center-text">
